@@ -1,0 +1,75 @@
+/* Base styles */
+body {
+    background-image: url('images/table.png');
+    font-family: Luminari, fantasy;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;  /* Changed from vh to px for better control */
+    font-weight: bolder;
+    color: #DFD7B9;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    color: goldenrod;
+    font-family: 'Brush Script MT', cursive;
+}
+
+button, input {
+    font-family: Luminari, fantasy;
+}
+
+.nameForm {
+    width: 90%; /* Use percentage for responsive width */
+    max-width: 600px; /* Maximum width of the form */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width */
+    margin-top: 5vh;
+}
+
+.name, .nameButton {
+    width: 100%; /* Full width of the parent container */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.name {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid goldenrod;
+    background-color: #ECD991;
+    font-size: 1rem; /* Responsive font size */
+}
+
+.nameButton {
+    height: 50px;
+    margin-top: 20px;
+    background-color: goldenrod;
+    color: #016f32;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Smaller font size on smaller devices */
+    }
+
+    .nameForm {
+        padding: 10px;
+    }
+
+    .name, .nameButton {
+        height: auto; /* More flexible height */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Smaller heading on smaller devices */
+    }
+}
