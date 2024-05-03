@@ -67,5 +67,6 @@ function win() {
     const storedPlayer = JSON.parse(localStorage.getItem("player"))
     storedPlayer.chips += 20
     localStorage.setItem("player", JSON.stringify(storedPlayer));
-    window.location.reload()
+    setTimeout(() => window.location.reload(), 2000)
+
 }
