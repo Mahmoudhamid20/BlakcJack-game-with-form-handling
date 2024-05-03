@@ -1,0 +1,64 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    background-image: url('images/table.png');
+    font-family: Luminari, fantasy;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.3vh;
+    font-weight: bolder;
+    color: #DFD7B9;
+}
+ 
+h1 {
+    color: goldenrod;
+    font-family: 'Brush Script MT', cursive;
+    
+}
+
+#message-el {
+    color: #ECD991;
+}
+
+ 
+button {
+    color: #016f32;
+    width: 20vh;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+
+}
+
+.name{
+    width: 50vh;
+    height: 5vh;
+    border-radius: 5px;
+    border-color: goldenrod;
+    background-color: #ECD991;
+    font-size: 0.5rem;
+    font-family: Luminari, fantasy;
+}
+.nameForm{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameButton{
+    width: 52vh;
+    height: 10vh;
+    margin-top: 5vh;   
+    margin-left: 10vh;
+    font-family: Luminari, fantasy;;
+    font-size: 3vh;
+    font-weight: bolder;
+}
